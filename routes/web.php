@@ -24,3 +24,13 @@ Route::get('/aboutus',[pageController::class,'aboutus'])->name('Aboutus');
 
 Route::get('/contact',[pageController::class,'contact'])->name('Contactus');
 
+Route::get('/create',[pageController::class,'create'])->name('Create');
+
+Route::post('/create',[pageController::class,'createSubmit'])->name('CreateSubmit');
+
+Route::get('/productitem',[pageController::class,'productitem'])->name('Productitem');
+
+
+
+
+
